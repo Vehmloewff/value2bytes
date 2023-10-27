@@ -1,5 +1,7 @@
 # Value2Bytes
 
+> I built this before I know that CBOR existed. Use that instead. For a Deno wrapper, see [Dtils](https://github.com/Vehmloewff/dtils) `cborEncode` and `cborDecode`.
+
 A simple pair of functions that turn a js value that can be sterilized into a `Uint8Array` and then back again.
 
 ```ts
